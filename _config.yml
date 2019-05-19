@@ -1,0 +1,14 @@
+title: HPFeeds
+author: HPFeeds
+
+url: "https://hpfeeds.org"
+baseurl: "/"
+
+favicon_location: favicon.ico
+
+permalink: /:year/:month/:day/:title/
+
+sass:
+    style: compressed
+    sass_dir: css
+
