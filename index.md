@@ -23,6 +23,7 @@ If you are building a sensor or data collector or tool that uses hpfeeds you may
  * Perl: [perl-POE-Component-hpfeeds](https://github.com/hpfeeds/perl-POE-Component-hpfeeds)
  * Python [hpfeeds](https://python.hpfeeds.org/)
  * Ruby: [hpfeedsrb](https://github.com/fw42/hpfeedsrb) [hpfeeds-ruby](https://github.com/vicvega/hpfeeds-ruby)
+ * Rust: [hpfeeds](https://npm.pkg.github.com/loftwing/hpfeeds)
 
 
 ## Wire Protocol
