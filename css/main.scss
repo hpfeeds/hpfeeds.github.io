@@ -161,14 +161,20 @@ code {
     align-items: center;
     padding: 2px 10px;
 
-  ul li {
-      margin: 5px;
-      display: inline-block;
-      list-style: none;
+  .title {
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 2;
   }
 
   .menu {
     margin-left: auto;
+  }
+
+  ul li {
+    margin: 5px;
+    display: inline-block;
+    list-style: none;
   }
 }
 
