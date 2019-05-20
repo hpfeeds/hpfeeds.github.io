@@ -13,18 +13,18 @@ Access to channels is given to so-called Authkeys which essentially are pairs of
 
 To support multiple data sources and sinks per user we manage the Authkeys in this webinterface after a quick login with a user account. User accounts are only needed for the webinterface - to use the data feed channels, only Authkeys are necessary. Different Authkeys can be granted distinct access rights for channels.
 
+
 ## Language Implementations
 
 If you are building a sensor or data collector or tool that uses hpfeeds you may want to use an existing client. There are implementations in:
 
- * C: [GitHub](https://github.com/hpfeeds/libhpfeeds)
- * C++: [GitHub](https://github.com/tentacool/tentacool)
- * Go: [GitHub](https://github.com/hpfeeds/go-hpfeeds)
- * JavaScript: [GitHub](https://github.com/fw42/honeymap/blob/master/server/node_modules/hpfeeds/index.js)
- * Perl: [GitHub](https://github.com/hpfeeds/perl-POE-Component-hpfeeds)
- * Python [GitHub](https://github.com/hpfeeds/hpfeeds) (Docs](https://python.hpfeeds.org/)
- * Ruby: [GitHub](https://github.com/fw42/hpfeedsrb)
- * More Ruby: [GitHub](https://github.com/vicvega)hpfeeds-ruby)
+ * C: [libhpfeeds](https://github.com/hpfeeds/libhpfeeds)
+ * C++: [tentacool](https://github.com/tentacool/tentacool)
+ * Go: [go-hpfeeds](https://github.com/hpfeeds/go-hpfeeds)
+ * JavaScript: [honeymap](https://github.com/fw42/honeymap/blob/master/server/node_modules/hpfeeds/index.js)
+ * Perl: [perl-POE-Component-hpfeeds](https://github.com/hpfeeds/perl-POE-Component-hpfeeds)
+ * Python [hpfeeds](https://python.hpfeeds.org/)
+ * Ruby: [hpfeedsrb](https://github.com/fw42/hpfeedsrb) [hpfeeds-ruby](https://github.com/vicvega/hpfeeds-ruby)
 
 
 ## Wire Protocol
