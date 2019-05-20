@@ -27,12 +27,33 @@ a:hover {
     text-decoration: underline;
 }
 
+// Table Formatting
+
+table {
+    border: 1px solid gray;
+
+    th {
+        border: 1px solid gray;
+        padding 5px 3px;
+    }
+
+    td {
+        border: 1px solid gray;
+        padding 5px 3px;
+    }
+}
+
 // Code Formatting
+
+code {
+    font-weight: normal;
+}
 
 .highlight {
     background: #000000;
     color: #cccccc;
 
+    code { font-weight: normal }
     .hll { background-color: #222222 }
     .c { color: #000080 } /* Comment */
     .err { color: #cccccc; border: 1px solid #FF0000 } /* Error */
