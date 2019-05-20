@@ -34,12 +34,12 @@ table {
 
     th {
         border: 1px solid gray;
-        padding 5px 3px;
+        padding: 5px 3px;
     }
 
     td {
         border: 1px solid gray;
-        padding 5px 3px;
+        padding: 5px 3px;
     }
 }
 
@@ -52,6 +52,7 @@ code {
 .highlight {
     background: #000000;
     color: #cccccc;
+    padding: 1px 5px;
 
     code { font-weight: normal }
     .hll { background-color: #222222 }
