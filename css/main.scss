@@ -153,6 +153,25 @@ code {
     line-height: 2;
 }
 
+.header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    padding: 2px 10px;
+
+  ul li {
+      margin: 5px;
+      display: inline-block;
+      list-style: none;
+  }
+
+  .menu {
+    margin-left: auto;
+  }
+}
+
 .footer{
     text-align: center;
     font-size: small;
