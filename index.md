@@ -3,15 +3,13 @@ layout: default
 title: hpfeeds
 ---
 
-hpfeeds is a lightweight authenticated publish-subscribe protocol that supports arbitrary binary payloads.
+hpfeeds is a lightweight authenticated publish-subscribe protocol that supports arbitrary binary payloads. It has a simple wire-format so that everyone is able to subscribe to feeds with their favorite language, and quickly.
 
-We tried to design a simple wire-format so that everyone is able to subscribe to the feeds with his favorite language in almost no time.
+Different feeds are separated by channels and support arbitrary binary payloads. This means that the channel users have to decide about the structure of data. While it is quite common to send JSON payloads to a channel users are in full control of the structure of the data transmitted and the serialization format used.
 
-Different feeds are separated by channels and support arbitrary binary payloads. This means that the channel users have to decide about the structure of data. This could for example be done by choosing a serialization format.
+To authenticate against a broker you use Authkeys - essentially a identifier and secret pair. The secret is never transmitted on the wired, it his hashed together with a nonce to prove that you have a copy of the secret. This way no eavesdroppers can obtain valid credentials.
 
-Access to channels is given to so-called Authkeys which essentially are pairs of an identifier and a secret. The secret is sent to the server by hashing it together with a per-connection nonce. This way no eavesdroppers can obtain valid credentials. Optionally the protocol can be run on top of SSL/TLS, of course.
-
-To support multiple data sources and sinks per user we manage the Authkeys in this webinterface after a quick login with a user account. User accounts are only needed for the webinterface - to use the data feed channels, only Authkeys are necessary. Different Authkeys can be granted distinct access rights for channels.
+Optionally, the protocol can be run on top of TLS.
 
 
 ## Language Implementations
