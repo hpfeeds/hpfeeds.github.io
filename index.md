@@ -7,7 +7,7 @@ hpfeeds is a lightweight authenticated publish-subscribe protocol that supports 
 
 Different feeds are separated by channels and support arbitrary binary payloads. This means that the channel users have to decide about the structure of data. While it is quite common to send JSON payloads to a channel users are in full control of the structure of the data transmitted and the serialization format used.
 
-To authenticate against a broker you use Authkeys - essentially a identifier and secret pair. The secret is never transmitted on the wired, it his hashed together with a nonce to prove that you have a copy of the secret. This way no eavesdroppers can obtain valid credentials.
+To authenticate against a broker you use Authkeys - an identifier and secret pair. The secret is never transmitted on the wired, it his hashed together with a nonce to prove that you have a copy of the secret. This way no eavesdroppers can obtain valid credentials.
 
 Optionally, the protocol can be run on top of TLS.
 
