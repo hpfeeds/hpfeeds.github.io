@@ -76,7 +76,7 @@ Here is an example error message:
 
 The serialized message will look like:
 
-```
+```hexdump
 00000000:  00 00 00 12 00 49 6e 76  61 6c 69 64 20 69 64 65   |.....Invalid ide|
 00000010:  6e 74                                              |nt|
 ```
@@ -101,7 +101,7 @@ A typical ``OP_INFO`` might look like this:
 
 The serialized message will look like:
 
-```
+```hexdump
 00000000:  00 00 00 11 01 07 68 70  66 65 65 64 73 00 00 00   |......hpfeeds...|
 00000010:  00                                                 |.|
 ```
@@ -127,7 +127,7 @@ A typical ``OP_INFO`` might look like this:
 
 The serialized message will look like:
 
-```
+```hexdump
 00000000:  00 00 00 21 02 07 63 6c  69 65 6e 74 31 af ae ae   |...!..client1...|
 00000010:  5f c7 61 19 1b e3 f9 ce  ce 5f fb 70 bc 50 69 42   |_.a......_.p.PiB|
 00000020:  a4                                                 |.|
@@ -155,7 +155,7 @@ A typical ``OP_INFO`` might look like this
 
 The serialized message will look like:
 
-````
+````hexdump
 00000000:  00 00 00 59 03 09 62 34  61 61 32 40 68 70 31 09   |...Y..b4aa2@hp1.|
 00000010:  6d 77 63 61 70 74 75 72  65 31 33 37 39 34 31 61   |mwcapture137941a|
 00000020:  33 64 38 35 38 39 66 36  37 32 38 39 32 34 63 30   |3d8589f6728924c0|
@@ -183,7 +183,7 @@ A typical subscription request is:
 
 The serialized message will look like:
 
-```
+```hexdump
 00000000:  00 00 00 16 04 07 63 6c  69 65 6e 74 31 6d 77 63   |......client1mwc|
 00000010:  61 70 74 75 72 65                                  |apture|
 ```
@@ -207,7 +207,7 @@ A typical unsubscribe request is:
 
 The serialized message will look like:
 
-```
+```hexdump
 00000000:  00 00 00 16 05 07 63 6c  69 65 6e 74 31 6d 77 63   |......client1mwc|
 00000010:  61 70 74 75 72 65                                  |apture|
 ```
