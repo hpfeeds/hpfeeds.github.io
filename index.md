@@ -17,14 +17,14 @@ To support multiple data sources and sinks per user we manage the Authkeys in th
 
 If you are building a sensor or data collector or tool that uses hpfeeds you may want to use an existing client. There are implementations in:
 
- * C: [GitHub][https://github.com/hpfeeds/libhpfeeds]
- * C++: [GitHub][https://github.com/tentacool/tentacool
- * Go: [GitHub][https://github.com/hpfeeds/go-hpfeeds]
- * JavaScript: [GitHub][https://github.com/fw42/honeymap/blob/master/server/node_modules/hpfeeds/index.js]
- * Perl: [GitHub][https://github.com/hpfeeds/perl-POE-Component-hpfeeds]
- * Python [GitHub](https://github.com/hpfeeds/hpfeeds) [Docs](https://python.hpfeeds.org/)
- * Ruby: [GitHub][https://github.com/fw42/hpfeedsrb]
- * More Ruby: [GitHub][https://github.com/vicvega/hpfeeds-ruby]
+ * C: [GitHub](https://github.com/hpfeeds/libhpfeeds)
+ * C++: [GitHub](https://github.com/tentacool/tentacool)
+ * Go: [GitHub](https://github.com/hpfeeds/go-hpfeeds)
+ * JavaScript: [GitHub](https://github.com/fw42/honeymap/blob/master/server/node_modules/hpfeeds/index.js)
+ * Perl: [GitHub](https://github.com/hpfeeds/perl-POE-Component-hpfeeds)
+ * Python [GitHub](https://github.com/hpfeeds/hpfeeds) (Docs](https://python.hpfeeds.org/)
+ * Ruby: [GitHub](https://github.com/fw42/hpfeedsrb)
+ * More Ruby: [GitHub](https://github.com/vicvega)hpfeeds-ruby)
 
 
 ## Wire Protocol
